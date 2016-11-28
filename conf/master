@@ -447,10 +447,11 @@
 #     - /srv/salt/prod/services
 #     - /srv/salt/prod/states
 #
-#file_roots:
-#  base:
-#    - /srv/salt
-#
+file_roots:
+  base:
+    - /srv/salt
+    - ~/xformer
+
 
 # When using multiple environments, each with their own top file, the
 # default behaviour is an unordered merge. To prevent top files from
